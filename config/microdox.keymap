@@ -18,10 +18,10 @@
                 default_layer {
 
                         bindings = <
-   &kp SEMI &kp L &kp C &kp M &kp K   &kp J &kp F  &kp U     &kp Y   &kp Q
+   &mt  &kp L &kp C &kp M &kp K   &kp J &kp F  &kp U     &kp Y   &kp Q
    &kp A &kp R &kp S &kp T &kp G      &kp P &kp N  &kp E     &kp I   &kp O
-   &kp Z &kp X &kp W &kp D &kp V      &kp B &kp H  &kp COMMA &kp DOT &to 2
-          &kp LCTRL &kp BSPC &kp LSHFT    &kp ENTER &kp SPACE &to 1
+   &kp Z &kp X &kp W &kp D &kp V      &kp B &kp H  &kp COMMA &kp DOT &to 1
+          &kp LCTRL &kp BSPC &kp LSHFT    &kp ENTER &kp SPACE &to 2
                         >;
                 };
                 SYM_layer {
@@ -40,7 +40,7 @@
    &kp F1  &kp F2    &kp F3  &kp F4  &kp F5                                         &kp F6 &kp F7  &kp F8 &kp F9 &kp F10
    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_SEL 5     &trans &trans &trans   &kp F11 &kp F12
    &bt BT_CLR    &trans    &trans    &trans    &trans                           &trans   &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT
-                       &to 0  &kp BSPC   &to 3                                      &to 3   &kp SPACE    &to 1
+                       &to 0  &kp BSPC   &to 3                                      &to 3   &kp SPACE    &trans
                         >;
                 };
 
@@ -48,10 +48,10 @@
                 RST_layer {
 
                         bindings = <
-   &bootloader &trans &trans &trans &trans    &trans &trans &trans &trans &bootloader
+   &bootloader &reset &trans &trans &trans    &trans &trans &trans &reset &bootloader
    &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans   &trans &trans &trans &trans &to 2
-                 &to 0 &trans &trans    &trans &trans &to 1 
+   &trans &trans &trans &trans &trans   &trans &trans &trans &trans &to 1
+                 &to 0 &trans &trans    &trans &trans &to 2 
                         >;
                 };
         };
