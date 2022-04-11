@@ -18,10 +18,10 @@
                 default_layer {
 
                         bindings = <
-   &mt  &kp L &kp C &kp M &kp K   &kp J &kp F  &kp U     &kp Y   &kp Q
-   &kp A &kp R &kp S &kp T &kp G      &kp P &kp N  &kp E     &kp I   &kp O
-   &kp Z &kp X &kp W &kp D &kp V      &kp B &kp H  &kp COMMA &kp DOT &kp LSHFT
-          &to 2 &kp BSPC &kp LCTRL    &kp ENTER &kp SPACE &to 1
+   &mt ESC SEMI &kp L &kp C &kp M &kp K   &kp J &kp F  &kp U     &kp Y   &kp Q
+   &kp A &kp R &kp S &kp T &kp G        &kp P &kp N  &kp E     &kp I   &kp O
+   &kp Z &kp X &kp W &kp D &kp V        &kp B &kp H  &kp COMMA &kp DOT &kp LSHFT
+          &to 2 &kp BSPC &kp LCTRL      &kp ENTER &kp SPACE &to 1
                         >;
                 };
                 SYM_layer {
