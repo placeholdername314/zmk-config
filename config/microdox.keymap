@@ -18,7 +18,7 @@
         combo_btld {
             timeout-ms = <50>;
             layers = <3>;
-            key-positions = <0 1>;
+            key-positions = <0 1 2 3 4>;
             bindings = <&bootloader>;
         };
     };
@@ -52,7 +52,7 @@
    &kp F1  &kp F2    &kp F3  &kp F4  &kp F5                                         &kp F6 &kp F7  &kp F8 &kp F9 &kp F10
    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_SEL 5     &trans &trans &trans   &kp F11 &kp F12
    &bt BT_CLR    &trans    &trans    &trans    &to 3                              &to 3   &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT
-                        &to l  &kp BSPC &to 0                                       &to 0   &kp SPACE &trans  
+                        &to 1  &kp BSPC &to 0                                       &to 0   &kp SPACE &trans  
                         >;
                 };
 
