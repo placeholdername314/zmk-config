@@ -63,7 +63,7 @@
    &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
    &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans
    &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans
-                 &to l &trans &to 0        &to 0 &trans &to 2 
+                 &to 1 &trans &to 0        &to 0 &trans &to 2 
                         >;
                 };
         };
