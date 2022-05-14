@@ -11,6 +11,7 @@
 #define SYM 1
 #define FUNC 2
 #define RST 3
+#define QWE 4
 
 / {
     combos {
@@ -60,11 +61,20 @@
                 RST_layer {
 
                         bindings = <
-   &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
+   &trans &trans &trans &trans &trans  &trans &trans &trans &trans &to 4
    &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans
    &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans
                  &to 1 &trans &to 0        &to 0 &trans &to 2 
                         >;
+                         qwerty_layer {
+
+                        bindings = <
+   &mt ESC Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &mt BSPC P
+   &kp A &kp S &kp D &kp F &kp G        &kp H &kp J  &kp K     &kp L   &kp SEMI
+   &kp Z &kp X &kp C &kp V &kp B        &kp N &kp M  &kp COMMA &mt FSLH DOT &kp LSHFT
+         &trans  &kp SPACE &kp LCTRL      &kp ENTER &kp SPACE &to 0
+                        >;
+                };
                 };
         };
 };
