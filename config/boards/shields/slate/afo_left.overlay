@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "slate.dtsi"
+#include "afo.dtsi"
 
 &kscan0 {
 	col-gpios
