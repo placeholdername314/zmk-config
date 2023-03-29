@@ -1,7 +1,7 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_SLATE_LEFT
+if SHIELD_AFO_LEFT
 
 config ZMK_KEYBOARD_NAME
 	default "afo"
