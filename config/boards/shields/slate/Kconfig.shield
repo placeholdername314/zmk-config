@@ -1,9 +1,9 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_SLATE_LEFT
+config SHIELD_AFO_LEFT
 	def_bool $(shields_list_contains,afo_left)
 
-config SHIELD_SLATE_RIGHT
+config SHIELD_AFO_RIGHT
 	def_bool $(shields_list_contains,afo_right)
   
