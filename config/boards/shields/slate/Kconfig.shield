@@ -2,8 +2,8 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_SLATE_LEFT
-	def_bool $(shields_list_contains,slate_left)
+	def_bool $(shields_list_contains,afo_left)
 
 config SHIELD_SLATE_RIGHT
-	def_bool $(shields_list_contains,slate_right)
+	def_bool $(shields_list_contains,afo_right)
   
