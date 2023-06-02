@@ -12,20 +12,10 @@
 #define FUNC 2
 #define RST 3
 #define QWE 4
-/ {
-    macros {
-        altab: altab {
-            label = "ZM_altab";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LALT &kp TAB>
-                , <&macro_pause_for_release>
-                , <&macro_release &kp LALT &kp TAB>
-                ;
-        };
-    };
+&mt {
+    tapping-term-ms = <700>;
 };
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -53,7 +43,7 @@
                         bindings = <
    &mt ESC SEMI &kp L &kp C &kp M &kp K   &kp J &kp F  &kp U     &kp Y   &kp Q
    &kp A &kp R &kp S &kp T &kp G        &kp P &kp N  &kp E     &kp I   &kp O
-   &mt &altab Z &kp X &kp W &kp D &kp V        &kp B &kp H  &kp COMMA &mt FSLH DOT &kp LSHFT
+   &mt LA(TAB) Z &kp X &kp W &kp D &kp V        &kp B &kp H  &kp COMMA &mt FSLH DOT &kp LSHFT
          &to 1  &kp BSPC &mt LCTRL PSCRN      &kp ENTER &kp SPACE &to 2
                         >;
                 };
