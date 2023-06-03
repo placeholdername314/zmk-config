@@ -13,7 +13,7 @@
 #define RST 3
 #define QWE 4
 &mt {
-    tapping-term-ms = <700>;
+    tapping-term-ms = <400>;
 };
 
 / {
@@ -37,10 +37,10 @@
                 default_layer {
 
                         bindings = <
-   &mt ESC SEMI &kp L &kp C &kp M &kp K   &kp J &kp F  &kp U     &kp Y   &kp Q
+   &mt ESC SEMI &kp L &kp C &kp M &kp K   &kp J &kp F  &kp U     &kp Y   &mt LA(TAB) Q
    &kp A &kp R &kp S &kp T &kp G        &kp P &kp N  &kp E     &kp I   &kp O
-   &mt LA(TAB) Z &kp X &kp W &kp D &kp V        &kp B &kp H  &kp COMMA &mt FSLH DOT &kp LSHFT
-         &to 1  &kp BSPC &mt LCTRL PSCRN      &kp ENTER &kp SPACE &to 2
+   &kp Z &kp X &kp W &kp D &kp V        &kp B &kp H  &kp COMMA &mt FSLH DOT &mt LSHFT LG(LS(S))
+         &to 1  &kp BSPC &kb LCTRL      &kp ENTER &kp SPACE &to 2
                         >;
                 };
                 SYM_layer {
