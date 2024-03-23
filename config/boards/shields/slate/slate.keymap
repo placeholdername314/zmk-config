@@ -86,15 +86,4 @@
                
                };
 
-                GAM_layer {
-
-                        bindings = <
-  &kp ESC  &kp Q &kp W &kp E &kp R   &kp Y &kp U  &kp W     &kp O   &kp BSPC
-  &kp LSHFT &kp K &kp J &kp SPACE &kp F        &kp H &kp A  &kp S     &kp D   &kp SEMI
-  &kp LSHFT  &kp Z &kp X &kp C &kp V      &kp N &kp M  &kp COMMA &mt FSLH DOT &kp LSHFT
-         &kp LSHFT  &kp SPACE &kp L      &kp ENTER &kp SPACE &to 0
-                        >;
-               
-               };
-        };
 };
